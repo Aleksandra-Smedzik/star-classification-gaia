@@ -32,12 +32,12 @@ This project demonstrates the classification of stars into spectral classes (O, 
 - imbalanced-learn (SMOTE, RandomOverSampler, RandomUnderSampler)
 - Optuna
 
-  ## Best Results
-- **Best model:** Decision Tree Classifier optimized using Optuna
+  ## Results
+- **Best model:** Decision Tree Classifier optimized using Optuna - best balance between rare and dominant classes
 - **F1-score (macro):** 0.8857
-- **Accuracy:** 96.7%
-- Best balance between rare and dominant classes was achieved with Decision Tree + Optuna
-- LightGBM achieved the highest accuracy but with slightly less balanced classification.
+- **Accuracy:** 96.32%
+- LightGBM achieved the highest accuracy (96.74%) but with slightly less balanced classification
+- Random Forest showed the highest precision (macro) (0.9665), but also the lowest recall. 
 
 ## Key Steps in the Project
 
